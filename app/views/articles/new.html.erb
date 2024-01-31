@@ -1,13 +1,8 @@
-<div id ="page-content">
+
   <h1 class= 'text-center mt-4'>Create new  Article </h1>
   <%= render "form", article: @artiicle %>
 
-  </div>
-<% if @article.errors.any? %>
-        <% @article.errors.full_messages.each do |msg| %>
-            <%=msg %>
-        <% end %>
-    <% end %>
 
+ 
 
 

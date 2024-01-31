@@ -1,1 +1,7 @@
 @import 'bootstrap/dist/css/bootstrap';
+
+.moved {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}

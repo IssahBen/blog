@@ -36,6 +36,8 @@ class ArticlesController < ApplicationController
 
         @article.update(article_params)
 
+        flash[:notice]="Article updated successfully"
+
         redirect_to article_path(@article)
     end
 
