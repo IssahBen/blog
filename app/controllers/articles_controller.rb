@@ -43,7 +43,7 @@ class ArticlesController < ApplicationController
 
 
         else
-            render :edit, status: :unprocessable_entity
+            render :edit ,status: :unprocessable_entity
         end
     end
 
